@@ -2,7 +2,7 @@ import CursosItens from "./CursosItens.tsx/CursosItens";
 
 export default function Cursos() {
     return (
-      <section id="Cursos" className="p-2 pb-20 md:p-20">
+      <section id="Cursos" className="p-3 pb-20 md:p-20">
         <div className="grid xl:grid-cols-4 gap-5 mt-10">
           <CursosItens img="/piano.png" titulo="Piano popular" isOrange />
           <CursosItens img="/clef.png" titulo="Teoria musical" />
