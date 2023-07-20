@@ -26,6 +26,7 @@ export default function CursosItens (props: CursosItensProps) {
         <div className="flex justify-end">
           <a href="#">
             <Image
+              className="drop-shadow-[5px_5px_4px_rgba(0,0,0,1)]"
               src="/arrow-right.svg"
               alt="arrow right"
               width={70}

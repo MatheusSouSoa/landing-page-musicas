@@ -23,7 +23,7 @@ export default function Inicio(){
             iusto sapiente corrupti voluptate! Ut fuga eligendi quidem.
             Molestias, odit cumque!
           </div>
-          <div className="grid justify-items-center"> 
+          <div className="grid justify-items-center">
             {/* estudar depois relative/absolute e translate/transform */}
             <button className="relative rounded-md px-10 py-4 bg-orange-500 hover:bg-orange-700  font-black text-black shadow-[5px_5px_5px_rgba(0,0,0,1)] ">
               COMECE
