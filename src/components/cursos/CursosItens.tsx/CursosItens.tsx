@@ -9,7 +9,7 @@ interface CursosItensProps {
 export default function CursosItens (props: CursosItensProps) {
     return (
       <div
-        className={`flex flex-col bg-orange-600 p-5 rounded-md border border-r-8 border-b-8 border-black ${
+        className={`flex flex-col bg-orange-600 p-5 rounded-md shadow-[5px_5px_4px_rgba(0,0,0,1)] ${
           props.isOrange ? "bg-orange-700 xl:mb-10" : "bg-orange-400 xl:mt-10"
         }`}
       >
@@ -24,14 +24,14 @@ export default function CursosItens (props: CursosItensProps) {
           corrupti mollitia soluta. Magnam, perferendis ducimus?
         </div>
         <div className="flex justify-end">
-            <a href="#">
-                <Image
-                    src="/arrow-right.svg"
-                    alt="arrow right"
-                    width={70}
-                    height={10}
-                />
-            </a>
+          <a href="#">
+            <Image
+              src="/arrow-right.svg"
+              alt="arrow right"
+              width={70}
+              height={10}
+            />
+          </a>
         </div>
       </div>
     );
