@@ -14,7 +14,7 @@ export default function Cursos() {
             E <span className="text-orange-600"> vários</span> outros!
           </div>
           <div className="w-full h-full">
-            <button className=" px-10 py-4 bg-orange-500 hover:bg-orange-700 rounded-md font-black text-black border border-r-4 border-b-4 border-black hover:border-r-2 hover:border-b-2 ">
+            <button className=" px-10 py-4 bg-orange-500 hover:bg-orange-700 rounded-md font-black text-black shadow-[5px_5px] ">
               CONHECER CURSOS
             </button>
           </div>

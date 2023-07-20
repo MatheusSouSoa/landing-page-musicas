@@ -34,7 +34,7 @@ export default function EventosContato() {
             id=""
             className="w-full p-2 border-2 border-r-4 border-b-4 border-zinc-800  rounded-lg outline-none"
           />
-          <button type="submit" className=" px-10 py-2 bg-orange-500 hover:bg-orange-700 rounded-lg font-black text-black border border-r-4 border-b-4 border-black hover:border-r-2 hover:border-b-2 ">
+          <button type="submit" className=" px-10 py-2 bg-orange-500 hover:bg-orange-700 rounded-lg font-black text-black shadow-[5px_5px] ">
             QUERO RECEBER
           </button>
         </form>
