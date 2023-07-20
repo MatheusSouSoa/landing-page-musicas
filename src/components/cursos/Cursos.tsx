@@ -2,15 +2,15 @@ import CursosItens from "./CursosItens.tsx/CursosItens";
 
 export default function Cursos() {
     return (
-      <section id="Cursos" className=" ml-10">
-        <div className="flex justify-around mt-20">
+      <section id="Cursos" className=" p-20">
+        <div className="grid xl:grid-cols-4 gap-5 mt-10">
           <CursosItens img="/piano.png" titulo="Piano popular" isOrange />
           <CursosItens img="/clef.png" titulo="Teoria musical" />
           <CursosItens img="/sax.png" titulo="Sax alto" isOrange />
           <CursosItens img="/drums.png" titulo="Bateria" />
         </div>
-        <div className="flex flex-col gap-40 justify-center items-center p-2 md:p-52 font-black text-black">
-          <div className="text-6xl">
+        <div className="flex flex-col gap-40 justify-center items-center text-center p-2  p-52 font-black text-black">
+          <div className="text-4xl xl:text-6xl">
             E <span className="text-orange-600"> vários</span> outros!
           </div>
           <div>

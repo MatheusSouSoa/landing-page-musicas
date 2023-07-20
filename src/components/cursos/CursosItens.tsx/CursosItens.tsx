@@ -9,8 +9,8 @@ interface CursosItensProps {
 export default function CursosItens (props: CursosItensProps) {
     return (
       <div
-        className={`flex flex-col bg-orange-600 p-5 rounded-md gap-3 w-1/5 border border-r-8 border-b-8 border-black ${
-          props.isOrange ? "bg-orange-700 mb-10" : "bg-orange-400 mt-10"
+        className={`flex flex-col bg-orange-600 p-5 rounded-md border border-r-8 border-b-8 border-black ${
+          props.isOrange ? "bg-orange-700 xl:mb-10" : "bg-orange-400 xl:mt-10"
         }`}
       >
         <div className="flex justify-start">
