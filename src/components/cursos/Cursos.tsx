@@ -9,7 +9,7 @@ export default function Cursos() {
           <CursosItens img="/sax.png" titulo="Sax alto" isOrange />
           <CursosItens img="/drums.png" titulo="Bateria" />
         </div>
-        <div className="flex flex-col gap-40 justify-center items-center text-center p-2  p-52 font-black text-black">
+        <div className="flex flex-col gap-40 justify-center items-center text-center pt-36 lg:p-40 xl:p-52 font-black text-black">
           <div className="text-4xl xl:text-6xl">
             E <span className="text-orange-600"> vários</span> outros!
           </div>
