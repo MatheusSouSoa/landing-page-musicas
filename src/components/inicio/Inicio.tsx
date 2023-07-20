@@ -25,7 +25,7 @@ export default function Inicio(){
           </div>
           <div className="grid justify-items-center"> 
             {/* estudar depois relative/absolute e translate/transform */}
-            <button className="relative px-10 py-4 bg-orange-500 hover:bg-orange-700  font-black text-black shadow-[5px_5px_5px_rgba(0,0,0,1)] ">
+            <button className="relative rounded-md px-10 py-4 bg-orange-500 hover:bg-orange-700  font-black text-black shadow-[5px_5px_5px_rgba(0,0,0,1)] ">
               COMECE
               <Image
                 className="absolute translate-y-[calc(100%+20px)] translate-x-1/2 bottom-0 right-0 pointer-events-none"
